@@ -12,9 +12,9 @@ A simple implementation of auto-formatting input into currency upon typing.
 **Behavior:**
 - **Automatic Formatting:** When the user types in, the currency input automatically formats the value with the specified characteristics.
 
-- **Dynamic Cursor Positioning: **As the user continues typing, the input dynamically formats the value without changing the cursor's position. The cursor always stays at the end of the last digit entered, enabling seamless editing and addition of decimal places if needed.
+- **Dynamic Cursor Positioning:** As the user continues typing, the input dynamically formats the value without changing the cursor's position. The cursor always stays at the end of the last digit entered, enabling seamless editing and addition of decimal places if needed.
 
-- **Copy-Paste Handling: **On copy-paste commands, the currency input intelligently removes all non-numeric characters and retains only the valid numeric value. It then applies the correct formatting, ensuring a consistent and accurate representation of the currency amount. For example, if the user copies "$1,234.56" from elsewhere, the input will accept only "1234.56" and format it as "1,234.56."
+- **Copy-Paste Handling:** On copy-paste commands, the currency input intelligently removes all non-numeric characters and retains only the valid numeric value. It then applies the correct formatting, ensuring a consistent and accurate representation of the currency amount. For example, if the user copies "$1,234.56" from elsewhere, the input will accept only "1234.56" and format it as "1,234.56."
 
 
 ------------
