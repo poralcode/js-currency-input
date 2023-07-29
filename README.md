@@ -1,7 +1,7 @@
 # A currency input using jQuery
-A simple implementation auto formatting input into currency upon typing.
+A simple implementation of auto-formatting input into currency upon typing.
 
-Assuming you have an input with a class of `currency-input`.  
+Assuming you have an input with a class name of `currency-input`.  
 **e.g.**
 
 ```html
