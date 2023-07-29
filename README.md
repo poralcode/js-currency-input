@@ -21,6 +21,7 @@ A simple implementation of auto-formatting input into currency upon typing.
 
 
 **IMPLEMENTATION**
+
 Assuming you have an input with a class name of `currency-input`.  
 
 ```html
