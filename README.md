@@ -7,7 +7,7 @@ A simple implementation of auto-formatting input into currency upon typing.
 - With thousands separator
 - No currency sign
 
->** Sample output:** 1,000,000.00
+>**Sample output:** 1,000,000.00
 
 **Behavior:**
 - **Automatic Formatting:** When the user types in, the currency input automatically formats the value with the specified characteristics.
