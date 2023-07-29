@@ -1,13 +1,34 @@
 # A currency input using jQuery
 A simple implementation of auto-formatting input into currency upon typing.
 
+**Characteristics:**
+- Numeric only
+- With two decimal places
+- With thousands separator
+- No currency sign
+
+>** Sample output:** 1,000,000.00
+
+**Behavior:**
+- **Automatic Formatting:** When the user types in, the currency input automatically formats the value with the specified characteristics.
+
+- **Dynamic Cursor Positioning: **As the user continues typing, the input dynamically formats the value without changing the cursor's position. The cursor always stays at the end of the last digit entered, enabling seamless editing and addition of decimal places if needed.
+
+- **Copy-Paste Handling: **On copy-paste commands, the currency input intelligently removes all non-numeric characters and retains only the valid numeric value. It then applies the correct formatting, ensuring a consistent and accurate representation of the currency amount. For example, if the user copies "$1,234.56" from elsewhere, the input will accept only "1234.56" and format it as "1,234.56."
+
+
+------------
+
+
+**IMPLEMENTATION**
 Assuming you have an input with a class name of `currency-input`.  
-**e.g.**
 
 ```html
 <input type="text" class="currency-input">
 ```
 Here is the jQuery functions that automatically handled the formatting of the input upon typing.
+> Tested on **jQuery 3.3.1**
+
 ```javascript
 $(function () {
   // This function is executed when the document is ready.
